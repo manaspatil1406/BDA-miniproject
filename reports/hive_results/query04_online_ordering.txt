@@ -1,0 +1,188 @@
+Picked up JAVA_TOOL_OPTIONS: -Dorg.jline.terminal.providers=dumb -Dorg.jline.terminal.type=dumb
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/home/manas_patil/apps/apache-hive-4.2.1-bin/lib/log4j-slf4j-impl-2.24.3.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/manas_patil/apps/hadoop-3.4.3/share/hadoop/common/lib/slf4j-reload4j-1.7.36.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.apache.logging.slf4j.Log4jLoggerFactory]
+Picked up JAVA_TOOL_OPTIONS: -Dorg.jline.terminal.providers=dumb -Dorg.jline.terminal.type=dumb
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/home/manas_patil/apps/apache-hive-4.2.1-bin/lib/log4j-slf4j-impl-2.24.3.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/manas_patil/apps/hadoop-3.4.3/share/hadoop/common/lib/slf4j-reload4j-1.7.36.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.apache.logging.slf4j.Log4jLoggerFactory]
+Hive Session ID = dc328e21-47c6-4384-beb1-490d102b4b4b
+26/11/04 11:36:35 [main]: WARN DataNucleus.MetaData: Metadata has jdbc-type of 'string' yet this is not valid. Ignored
+26/11/04 11:36:35 [main]: WARN DataNucleus.MetaData: Metadata has jdbc-type of 'string' yet this is not valid. Ignored
+26/11/04 11:36:35 [main]: WARN DataNucleus.MetaData: Metadata has jdbc-type of 'string' yet this is not valid. Ignored
+26/11/04 11:36:35 [main]: WARN DataNucleus.MetaData: Metadata has jdbc-type of 'string' yet this is not valid. Ignored
+26/11/04 11:36:35 [main]: WARN DataNucleus.MetaData: Metadata has jdbc-type of 'string' yet this is not valid. Ignored
+26/11/04 11:36:35 [main]: WARN DataNucleus.MetaData: Metadata has jdbc-type of 'string' yet this is not valid. Ignored
+26/11/04 11:36:36 [main]: WARN DataNucleus.MetaData: Metadata has jdbc-type of 'string' yet this is not valid. Ignored
+26/11/04 11:36:36 [main]: WARN DataNucleus.MetaData: Metadata has jdbc-type of 'string' yet this is not valid. Ignored
+26/11/04 11:36:36 [main]: WARN DataNucleus.MetaData: Metadata has jdbc-type of 'string' yet this is not valid. Ignored
+26/11/04 11:36:36 [main]: WARN DataNucleus.MetaData: Metadata has jdbc-type of 'string' yet this is not valid. Ignored
+26/11/04 11:36:36 [main]: WARN DataNucleus.MetaData: Metadata has jdbc-type of 'string' yet this is not valid. Ignored
+26/11/04 11:36:36 [main]: WARN DataNucleus.MetaData: Metadata has jdbc-type of 'string' yet this is not valid. Ignored
+26/11/04 11:36:37 [main]: WARN exec.FunctionRegistry: UDF Class org.apache.hadoop.hive.ql.udf.generic.GenericUDFToJson does not have description. Please annotate the class with the org.apache.hadoop.hive.ql.exec.Description annotation and provide the description of the function.
+26/11/04 11:36:38 [main]: WARN session.SessionState: Configuration hive.reloadable.aux.jars.path not specified
+26/11/04 11:36:45 [93afeb7d-34c7-4409-9423-0d9b65238ebc main]: WARN calcite.RelOptHiveTable: No Stats for foodieanalytics@restaurants, Columns: location, online_order
+No Stats for foodieanalytics@restaurants, Columns: location, online_order
+26/11/04 11:36:46 [HiveServer2-Background-Pool: Thread-71]: WARN ql.Driver: Hive-on-MR is deprecated in Hive 2 and may not be available in the future versions. Consider using a different execution engine (i.e. tez) or using Hive 1.X releases.
+Query ID = manas_patil_20261104113640_cee53b55-088a-4633-89b7-cc6484c1f05c
+Total jobs = 2
+Launching Job 1 out of 2
+Number of reduce tasks not specified. Estimated from input data size: 3
+In order to change the average load for a reducer (in bytes):
+  set hive.exec.reducers.bytes.per.reducer=<number>
+In order to limit the maximum number of reducers:
+  set hive.exec.reducers.max=<number>
+In order to set a constant number of reducers:
+  set mapreduce.job.reduces=<number>
+26/11/04 11:36:47 [HiveServer2-Background-Pool: Thread-71]: WARN impl.MetricsSystemImpl: JobTracker metrics system already initialized!
+26/11/04 11:36:47 [HiveServer2-Background-Pool: Thread-71]: WARN mapreduce.JobResourceUploader: Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+Job running in-process (local Hadoop)
+26/11/04 11:36:50 [HiveServer2-Background-Pool: Thread-71]: WARN mapreduce.Counters: Group org.apache.hadoop.mapred.Task$Counter is deprecated. Use org.apache.hadoop.mapreduce.TaskCounter instead
+2026-11-04 11:36:50,599 Stage-1 map = 0%,  reduce = 0%
+2026-11-04 11:37:03,205 Stage-1 map = 11%,  reduce = 0%, Cumulative CPU 27.27 sec
+2026-11-04 11:37:05,222 Stage-1 map = 100%,  reduce = 0%, Cumulative CPU 33.53 sec
+26/11/04 11:37:17 [pool-14-thread-1]: WARN impl.MetricsSystemImpl: JobTracker metrics system already initialized!
+26/11/04 11:37:17 [pool-14-thread-1]: WARN impl.MetricsSystemImpl: JobTracker metrics system already initialized!
+26/11/04 11:37:17 [Readahead Thread #2]: WARN io.ReadaheadPool: Failed readahead on ifile
+org.apache.hadoop.io.nativeio.NativeIOException: Bad file descriptor
+	at org.apache.hadoop.io.nativeio.NativeIO$POSIX.posix_fadvise(Native Method) ~[hadoop-common-3.4.3.jar:?]
+	at org.apache.hadoop.io.nativeio.NativeIO$POSIX.posixFadviseIfPossible(NativeIO.java:426) ~[hadoop-common-3.4.3.jar:?]
+	at org.apache.hadoop.io.nativeio.NativeIO$POSIX$CacheManipulator.posixFadviseIfPossible(NativeIO.java:296) ~[hadoop-common-3.4.3.jar:?]
+	at org.apache.hadoop.io.ReadaheadPool$ReadaheadRequestImpl.run(ReadaheadPool.java:220) ~[hadoop-common-3.4.3.jar:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+26/11/04 11:37:18 [pool-14-thread-1]: WARN impl.MetricsSystemImpl: JobTracker metrics system already initialized!
+2026-11-04 11:37:18,339 Stage-1 map = 100%,  reduce = 100%, Cumulative CPU 64.0 sec
+MapReduce Total cumulative CPU time: 1 minutes 4 seconds 0 msec
+Ended Job = job_local1935380310_0001
+Launching Job 2 out of 2
+Number of reduce tasks determined at compile time: 1
+In order to change the average load for a reducer (in bytes):
+  set hive.exec.reducers.bytes.per.reducer=<number>
+In order to limit the maximum number of reducers:
+  set hive.exec.reducers.max=<number>
+In order to set a constant number of reducers:
+  set mapreduce.job.reduces=<number>
+26/11/04 11:37:18 [HiveServer2-Background-Pool: Thread-71]: WARN impl.MetricsSystemImpl: JobTracker metrics system already initialized!
+26/11/04 11:37:18 [HiveServer2-Background-Pool: Thread-71]: WARN impl.MetricsSystemImpl: JobTracker metrics system already initialized!
+26/11/04 11:37:18 [HiveServer2-Background-Pool: Thread-71]: WARN mapreduce.JobResourceUploader: Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+Job running in-process (local Hadoop)
+26/11/04 11:37:19 [pool-20-thread-1]: WARN impl.MetricsSystemImpl: JobTracker metrics system already initialized!
+26/11/04 11:37:19 [Readahead Thread #0]: WARN io.ReadaheadPool: Failed readahead on ifile
+org.apache.hadoop.io.nativeio.NativeIOException: Bad file descriptor
+	at org.apache.hadoop.io.nativeio.NativeIO$POSIX.posix_fadvise(Native Method) ~[hadoop-common-3.4.3.jar:?]
+	at org.apache.hadoop.io.nativeio.NativeIO$POSIX.posixFadviseIfPossible(NativeIO.java:426) ~[hadoop-common-3.4.3.jar:?]
+	at org.apache.hadoop.io.nativeio.NativeIO$POSIX$CacheManipulator.posixFadviseIfPossible(NativeIO.java:296) ~[hadoop-common-3.4.3.jar:?]
+	at org.apache.hadoop.io.ReadaheadPool$ReadaheadRequestImpl.run(ReadaheadPool.java:220) ~[hadoop-common-3.4.3.jar:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+2026-11-04 11:37:20,116 Stage-2 map = 100%,  reduce = 100%, Cumulative CPU 1.44 sec
+MapReduce Total cumulative CPU time: 1 seconds 440 msec
+Ended Job = job_local43675110_0002
+MapReduce Jobs Launched: 
+Stage-Stage-1:  Cumulative CPU: 64.0 sec   HDFS Read: 3109106680 HDFS Write: 0 HDFS EC Read: 0 SUCCESS
+Stage-Stage-2:  Cumulative CPU: 1.44 sec   HDFS Read: 1151293948 HDFS Write: 0 HDFS EC Read: 0 SUCCESS
+Total MapReduce CPU Time Spent: 1 minutes 5 seconds 440 msec
+location	online_order_restaurants
+BTM	3325
+HSR	1920
+Koramangala 5th Block	1614
+Jayanagar	1364
+Indiranagar	1335
+JP Nagar	1317
+Whitefield	1137
+Marathahalli	1112
+Bannerghatta Road	924
+Koramangala 1st Block	852
+Koramangala 7th Block	786
+Bellandur	761
+Sarjapur Road	729
+Koramangala 6th Block	697
+Brigade Road	663
+Ulsoor	625
+Electronic City	575
+Koramangala 4th Block	558
+Banashankari	507
+Kalyan Nagar	498
+Basavanagudi	441
+Frazer Town	429
+Brookefield	417
+Malleshwaram	415
+New BEL Road	392
+Kammanahalli	380
+MG Road	374
+Church Street	343
+Banaswadi	343
+Cunningham Road	323
+Rajajinagar	305
+Residency Road	248
+Richmond Road	247
+Domlur	235
+Ejipura	220
+Shanti Nagar	220
+Old Airport Road	216
+Koramangala 8th Block	212
+Lavelle Road	205
+Jeevan Bhima Nagar	204
+St. Marks Road	167
+Kumaraswamy Layout	165
+Nagawara	162
+Vasanth Nagar	147
+Shivajinagar	144
+Commercial Street	142
+Wilson Garden	134
+Koramangala 3rd Block	125
+Bommanahalli	115
+HBR Layout	105
+Hennur	103
+Basaveshwara Nagar	100
+Varthur Main Road, Whitefield	97
+Yeshwantpur	93
+Thippasandra	83
+ITPL Main Road, Whitefield	80
+Kaggadasapura	79
+Seshadripuram	75
+South Bangalore	71
+Koramangala 2nd Block	63
+Infantry Road	61
+Hosur Road	59
+CV Raman Nagar	56
+RT Nagar	55
+Vijay Nagar	54
+Race Course Road	46
+Sahakara Nagar	38
+Sanjay Nagar	37
+Koramangala	30
+City Market	28
+Rammurthy Nagar	27
+Sadashiv Nagar	25
+East Bangalore	23
+Majestic	21
+Jalahalli	21
+Magadi Road	18
+Kanakapura Road	17
+Old Madras Road	17
+Mysore Road	10
+Uttarahalli	10
+KR Puram	7
+Kengeri	7
+Yelahanka	5
+North Bangalore	5
+Langford Town	5
+Hebbal	4
+Central Bangalore	3
+Nagarbhavi	2
+Rajarajeshwari Nagar	2
+West Bangalore	2
+26/11/04 11:37:20 [pool-21-thread-1]: WARN util.ShutdownHookManager: Shutdown in progress, cannot cancel a deleteOnExit
+26/11/04 11:37:20 [pool-21-thread-1]: WARN util.ShutdownHookManager: Shutdown in progress, cannot cancel a deleteOnExit
+26/11/04 11:37:20 [pool-21-thread-2]: WARN util.ShutdownHookManager: Shutdown in progress, cannot cancel a deleteOnExit
+26/11/04 11:37:20 [pool-21-thread-2]: WARN util.ShutdownHookManager: Shutdown in progress, cannot cancel a deleteOnExit
+26/11/04 11:37:20 [shutdown-hook-0]: WARN util.ShutdownHookManager: Shutdown in progress, cannot cancel a deleteOnExit
+26/11/04 11:37:20 [shutdown-hook-0]: WARN util.ShutdownHookManager: Shutdown in progress, cannot cancel a deleteOnExit

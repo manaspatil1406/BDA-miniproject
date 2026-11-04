@@ -1,0 +1,268 @@
+/* ====================================================================
+   FoodieAnalytics - Professional Zomato-Inspired Streamlit Theme
+   ==================================================================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+
+:root {
+    --primary-red: #E23744;
+    --primary-red-hover: #cb202d;
+    --primary-red-light: #fff2f3;
+    --dark-bg: #1C1C1C;
+    --dark-card: #282828;
+    --text-primary: #1F2937;
+    --text-secondary: #4B5563;
+    --text-muted: #6B7280;
+    --border-color: #E5E7EB;
+    --bg-light: #F9FAFB;
+    --success: #10B981;
+    --warning: #F59E0B;
+    --info: #3B82F6;
+    --accent: #8B5CF6;
+}
+
+/* Global Font & Spacing */
+html, body, [class*="css"] {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+/* Main Container Padding */
+.main .block-container {
+    padding-top: 1.5rem;
+    padding-bottom: 3rem;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    max-width: 1400px;
+}
+
+/* Header Banner */
+.header-banner {
+    background: linear-gradient(135deg, #E23744 0%, #B91C1C 100%);
+    color: #ffffff;
+    padding: 2.2rem 2.5rem;
+    border-radius: 16px;
+    margin-bottom: 2rem;
+    box-shadow: 0 10px 25px -5px rgba(226, 55, 68, 0.3), 0 8px 10px -6px rgba(226, 55, 68, 0.2);
+}
+
+.header-banner h1 {
+    color: #ffffff !important;
+    font-size: 2.3rem !important;
+    font-weight: 800 !important;
+    margin-bottom: 0.5rem !important;
+    letter-spacing: -0.02em;
+}
+
+.header-banner p {
+    color: #FEE2E2 !important;
+    font-size: 1.05rem;
+    margin-bottom: 1rem;
+    max-width: 900px;
+}
+
+.tech-badges {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-top: 0.8rem;
+}
+
+.tech-badge {
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(8px);
+    color: #ffffff;
+    padding: 0.3rem 0.8rem;
+    border-radius: 20px;
+    font-size: 0.82rem;
+    font-weight: 600;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+/* KPI Cards */
+.kpi-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.25rem;
+    margin-bottom: 2rem;
+}
+
+.kpi-card {
+    background: #ffffff;
+    border: 1px solid var(--border-color);
+    border-radius: 14px;
+    padding: 1.35rem 1.2rem;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -2px rgba(0, 0, 0, 0.03);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    border-top: 4px solid var(--primary-red);
+}
+
+.kpi-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 12px 20px -5px rgba(0, 0, 0, 0.08), 0 4px 6px -2px rgba(0, 0, 0, 0.04);
+}
+
+.kpi-title {
+    font-size: 0.82rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: var(--text-muted);
+    letter-spacing: 0.05em;
+    margin-bottom: 0.35rem;
+}
+
+.kpi-value {
+    font-size: 1.95rem;
+    font-weight: 800;
+    color: var(--text-primary);
+    line-height: 1.2;
+    margin-bottom: 0.3rem;
+}
+
+.kpi-subtitle {
+    font-size: 0.8rem;
+    color: var(--text-secondary);
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+}
+
+/* Section Cards */
+.section-card {
+    background: #ffffff;
+    border: 1px solid var(--border-color);
+    border-radius: 14px;
+    padding: 1.5rem;
+    margin-bottom: 1.75rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.03);
+}
+
+.section-title {
+    font-size: 1.35rem;
+    font-weight: 700;
+    color: var(--text-primary);
+    margin-bottom: 0.3rem;
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+}
+
+.section-subtitle {
+    font-size: 0.92rem;
+    color: var(--text-muted);
+    margin-bottom: 1.2rem;
+}
+
+/* Status Badges */
+.status-badge {
+    display: inline-block;
+    padding: 0.25rem 0.75rem;
+    border-radius: 9999px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+.badge-delivered {
+    background-color: #D1FAE5;
+    color: #065F46;
+}
+
+.badge-out-for-delivery {
+    background-color: #DBEAFE;
+    color: #1E40AF;
+}
+
+.badge-preparing {
+    background-color: #FEF3C7;
+    color: #92400E;
+}
+
+.badge-placed {
+    background-color: #F3E8FF;
+    color: #6B21A8;
+}
+
+/* Buttons */
+div.stButton > button {
+    background-color: var(--primary-red) !important;
+    color: #ffffff !important;
+    border: none !important;
+    border-radius: 8px !important;
+    font-weight: 600 !important;
+    padding: 0.55rem 1.5rem !important;
+    transition: all 0.2s ease !important;
+    box-shadow: 0 4px 6px -1px rgba(226, 55, 68, 0.2) !important;
+}
+
+div.stButton > button:hover {
+    background-color: var(--primary-red-hover) !important;
+    transform: translateY(-1px) !important;
+    box-shadow: 0 6px 12px -2px rgba(226, 55, 68, 0.3) !important;
+}
+
+/* Custom Table Styling */
+.dataframe {
+    border: 1px solid var(--border-color) !important;
+    border-radius: 8px !important;
+    font-size: 0.9rem !important;
+}
+
+/* Recommendation Highlight Card */
+.rec-card {
+    background: #ffffff;
+    border: 1px solid #E5E7EB;
+    border-left: 5px solid var(--primary-red);
+    border-radius: 12px;
+    padding: 1.2rem 1.4rem;
+    margin-bottom: 1rem;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.04);
+}
+
+.rec-title {
+    font-size: 1.15rem;
+    font-weight: 700;
+    color: var(--text-primary);
+    margin-bottom: 0.2rem;
+}
+
+.rec-meta {
+    font-size: 0.85rem;
+    color: var(--text-muted);
+    margin-bottom: 0.6rem;
+}
+
+.rec-score-pill {
+    display: inline-block;
+    background: #FEE2E2;
+    color: #991B1B;
+    font-weight: 700;
+    font-size: 0.9rem;
+    padding: 0.2rem 0.7rem;
+    border-radius: 6px;
+    float: right;
+}
+
+/* Sidebar Styling */
+section[data-testid="stSidebar"] {
+    background-color: #FAFAFA;
+    border-right: 1px solid var(--border-color);
+}
+
+.sidebar-brand {
+    font-size: 1.3rem;
+    font-weight: 800;
+    color: var(--primary-red);
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid #FEE2E2;
+    margin-bottom: 1.2rem;
+}
+
+.sidebar-caption {
+    font-size: 0.8rem;
+    color: var(--text-muted);
+    margin-bottom: 1.5rem;
+}
+

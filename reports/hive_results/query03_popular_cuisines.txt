@@ -1,0 +1,98 @@
+Picked up JAVA_TOOL_OPTIONS: -Dorg.jline.terminal.providers=dumb -Dorg.jline.terminal.type=dumb
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/home/manas_patil/apps/apache-hive-4.2.1-bin/lib/log4j-slf4j-impl-2.24.3.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/manas_patil/apps/hadoop-3.4.3/share/hadoop/common/lib/slf4j-reload4j-1.7.36.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.apache.logging.slf4j.Log4jLoggerFactory]
+Picked up JAVA_TOOL_OPTIONS: -Dorg.jline.terminal.providers=dumb -Dorg.jline.terminal.type=dumb
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/home/manas_patil/apps/apache-hive-4.2.1-bin/lib/log4j-slf4j-impl-2.24.3.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/manas_patil/apps/hadoop-3.4.3/share/hadoop/common/lib/slf4j-reload4j-1.7.36.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.apache.logging.slf4j.Log4jLoggerFactory]
+Hive Session ID = 88724351-8382-4f6a-9b9d-289deb244b59
+26/11/04 11:35:51 [main]: WARN DataNucleus.MetaData: Metadata has jdbc-type of 'string' yet this is not valid. Ignored
+26/11/04 11:35:51 [main]: WARN DataNucleus.MetaData: Metadata has jdbc-type of 'string' yet this is not valid. Ignored
+26/11/04 11:35:51 [main]: WARN DataNucleus.MetaData: Metadata has jdbc-type of 'string' yet this is not valid. Ignored
+26/11/04 11:35:51 [main]: WARN DataNucleus.MetaData: Metadata has jdbc-type of 'string' yet this is not valid. Ignored
+26/11/04 11:35:51 [main]: WARN DataNucleus.MetaData: Metadata has jdbc-type of 'string' yet this is not valid. Ignored
+26/11/04 11:35:51 [main]: WARN DataNucleus.MetaData: Metadata has jdbc-type of 'string' yet this is not valid. Ignored
+26/11/04 11:35:52 [main]: WARN DataNucleus.MetaData: Metadata has jdbc-type of 'string' yet this is not valid. Ignored
+26/11/04 11:35:52 [main]: WARN DataNucleus.MetaData: Metadata has jdbc-type of 'string' yet this is not valid. Ignored
+26/11/04 11:35:52 [main]: WARN DataNucleus.MetaData: Metadata has jdbc-type of 'string' yet this is not valid. Ignored
+26/11/04 11:35:52 [main]: WARN DataNucleus.MetaData: Metadata has jdbc-type of 'string' yet this is not valid. Ignored
+26/11/04 11:35:52 [main]: WARN DataNucleus.MetaData: Metadata has jdbc-type of 'string' yet this is not valid. Ignored
+26/11/04 11:35:52 [main]: WARN DataNucleus.MetaData: Metadata has jdbc-type of 'string' yet this is not valid. Ignored
+26/11/04 11:35:54 [main]: WARN exec.FunctionRegistry: UDF Class org.apache.hadoop.hive.ql.udf.generic.GenericUDFToJson does not have description. Please annotate the class with the org.apache.hadoop.hive.ql.exec.Description annotation and provide the description of the function.
+26/11/04 11:35:54 [main]: WARN session.SessionState: Configuration hive.reloadable.aux.jars.path not specified
+26/11/04 11:36:02 [58bd40a0-ef65-439a-a8bd-eab789b7bd2d main]: WARN calcite.RelOptHiveTable: No Stats for foodieanalytics@restaurants, Columns: address, listed_in_type, rest_type, menu_item, reviews_list, book_table, approx_cost_for_two_people, listed_in_city, url, cuisines, rate, phone, name, dish_liked, votes, location, online_order
+No Stats for foodieanalytics@restaurants, Columns: address, listed_in_type, rest_type, menu_item, reviews_list, book_table, approx_cost_for_two_people, listed_in_city, url, cuisines, rate, phone, name, dish_liked, votes, location, online_order
+26/11/04 11:36:03 [HiveServer2-Background-Pool: Thread-71]: WARN ql.Driver: Hive-on-MR is deprecated in Hive 2 and may not be available in the future versions. Consider using a different execution engine (i.e. tez) or using Hive 1.X releases.
+Query ID = manas_patil_20261104113558_e9df8d4f-31d7-497d-b24e-9e605b289fdd
+Total jobs = 2
+Launching Job 1 out of 2
+Number of reduce tasks not specified. Estimated from input data size: 3
+In order to change the average load for a reducer (in bytes):
+  set hive.exec.reducers.bytes.per.reducer=<number>
+In order to limit the maximum number of reducers:
+  set hive.exec.reducers.max=<number>
+In order to set a constant number of reducers:
+  set mapreduce.job.reduces=<number>
+26/11/04 11:36:03 [HiveServer2-Background-Pool: Thread-71]: WARN impl.MetricsSystemImpl: JobTracker metrics system already initialized!
+26/11/04 11:36:03 [HiveServer2-Background-Pool: Thread-71]: WARN mapreduce.JobResourceUploader: Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+Job running in-process (local Hadoop)
+26/11/04 11:36:05 [HiveServer2-Background-Pool: Thread-71]: WARN mapreduce.Counters: Group org.apache.hadoop.mapred.Task$Counter is deprecated. Use org.apache.hadoop.mapreduce.TaskCounter instead
+2026-11-04 11:36:05,900 Stage-1 map = 0%,  reduce = 0%
+2026-11-04 11:36:13,933 Stage-1 map = 100%,  reduce = 0%, Cumulative CPU 20.53 sec
+26/11/04 11:36:21 [pool-14-thread-1]: WARN impl.MetricsSystemImpl: JobTracker metrics system already initialized!
+26/11/04 11:36:21 [pool-14-thread-1]: WARN impl.MetricsSystemImpl: JobTracker metrics system already initialized!
+26/11/04 11:36:21 [pool-14-thread-1]: WARN impl.MetricsSystemImpl: JobTracker metrics system already initialized!
+2026-11-04 11:36:21,999 Stage-1 map = 100%,  reduce = 100%, Cumulative CPU 38.95 sec
+MapReduce Total cumulative CPU time: 38 seconds 950 msec
+Ended Job = job_local1633898674_0001
+Launching Job 2 out of 2
+Number of reduce tasks determined at compile time: 1
+In order to change the average load for a reducer (in bytes):
+  set hive.exec.reducers.bytes.per.reducer=<number>
+In order to limit the maximum number of reducers:
+  set hive.exec.reducers.max=<number>
+In order to set a constant number of reducers:
+  set mapreduce.job.reduces=<number>
+26/11/04 11:36:22 [HiveServer2-Background-Pool: Thread-71]: WARN impl.MetricsSystemImpl: JobTracker metrics system already initialized!
+26/11/04 11:36:22 [HiveServer2-Background-Pool: Thread-71]: WARN impl.MetricsSystemImpl: JobTracker metrics system already initialized!
+26/11/04 11:36:22 [HiveServer2-Background-Pool: Thread-71]: WARN mapreduce.JobResourceUploader: Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+Job running in-process (local Hadoop)
+26/11/04 11:36:22 [pool-20-thread-1]: WARN impl.MetricsSystemImpl: JobTracker metrics system already initialized!
+26/11/04 11:36:22 [Readahead Thread #0]: WARN io.ReadaheadPool: Failed readahead on ifile
+org.apache.hadoop.io.nativeio.NativeIOException: Bad file descriptor
+	at org.apache.hadoop.io.nativeio.NativeIO$POSIX.posix_fadvise(Native Method) ~[hadoop-common-3.4.3.jar:?]
+	at org.apache.hadoop.io.nativeio.NativeIO$POSIX.posixFadviseIfPossible(NativeIO.java:426) ~[hadoop-common-3.4.3.jar:?]
+	at org.apache.hadoop.io.nativeio.NativeIO$POSIX$CacheManipulator.posixFadviseIfPossible(NativeIO.java:296) ~[hadoop-common-3.4.3.jar:?]
+	at org.apache.hadoop.io.ReadaheadPool$ReadaheadRequestImpl.run(ReadaheadPool.java:220) ~[hadoop-common-3.4.3.jar:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+2026-11-04 11:36:23,585 Stage-2 map = 100%,  reduce = 100%, Cumulative CPU 0.97 sec
+MapReduce Total cumulative CPU time: 970 msec
+Ended Job = job_local664156697_0002
+MapReduce Jobs Launched: 
+Stage-Stage-1:  Cumulative CPU: 38.95 sec   HDFS Read: 3109106680 HDFS Write: 0 HDFS EC Read: 0 SUCCESS
+Stage-Stage-2:  Cumulative CPU: 0.97 sec   HDFS Read: 1151293948 HDFS Write: 0 HDFS EC Read: 0 SUCCESS
+Total MapReduce CPU Time Spent: 39 seconds 920 msec
+cuisine	total_restaurants
+North Indian	21069
+Chinese	15534
+South Indian	8638
+Fast Food	8087
+Biryani	6483
+Continental	5759
+Desserts	5631
+Cafe	5300
+Beverages	4743
+Italian	3386
+26/11/04 11:36:23 [pool-21-thread-1]: WARN util.ShutdownHookManager: Shutdown in progress, cannot cancel a deleteOnExit
+26/11/04 11:36:23 [pool-21-thread-1]: WARN util.ShutdownHookManager: Shutdown in progress, cannot cancel a deleteOnExit
+26/11/04 11:36:23 [pool-21-thread-2]: WARN util.ShutdownHookManager: Shutdown in progress, cannot cancel a deleteOnExit
+26/11/04 11:36:23 [pool-21-thread-2]: WARN util.ShutdownHookManager: Shutdown in progress, cannot cancel a deleteOnExit
+26/11/04 11:36:23 [shutdown-hook-0]: WARN util.ShutdownHookManager: Shutdown in progress, cannot cancel a deleteOnExit
+26/11/04 11:36:23 [shutdown-hook-0]: WARN util.ShutdownHookManager: Shutdown in progress, cannot cancel a deleteOnExit

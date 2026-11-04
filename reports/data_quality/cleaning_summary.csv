@@ -1,0 +1,20 @@
+metric,before_cleaning,after_cleaning,notes
+Total Records (Rows),"51,717","51,656",Removed 40 scrape duplicates + 21 empty location rows
+Total Features (Columns),17,17,Columns standardized to lower_snake_case
+Exact Duplicate Rows (All Features),0,0,Zero duplicates remaining
+Content Duplicate Rows (Excl. URL),40,0,All 40 redundant scrape records removed
+Missing Restaurant Names,0,0,100% complete
+Missing Physical Locations,21,0,21 unusable records removed
+Missing Cuisines (NaN),45,0,Missing values imputed with 'Not Specified' (24 imputed)
+Missing Restaurant Types (NaN),227,0,Missing values imputed with 'Not Specified' (206 imputed)
+Missing Dish Liked (NaN),28078,0,"Missing values imputed with 'Not Specified' (28,028 imputed)"
+Missing Phone Numbers (NaN),1208,0,"Missing values imputed with 'Not Provided' (1,186 imputed)"
+Unrated / Missing Ratings (NaN),7775,"10,016",Distinguished 'NEW'/'-' and preserved as NaN without artificial biasing
+Missing Approx Cost for Two (NaN),346,324,Missing values preserved as NaN without fabricating prices
+Rate Data Type,str,float64,Converted from object string to continuous float64
+Cost Data Type,str,float64,Converted from comma-string to continuous float64
+Online Order Data Type,str,bool,Converted from string 'Yes'/'No' to boolean bool
+Book Table Data Type,str,bool,Converted from string 'Yes'/'No' to boolean bool
+Invalid Ratings (< 1.0 or > 5.0),0,0,"All parsed ratings lie strictly within valid [1.0, 5.0] scale"
+Invalid Costs (<= 0),0,0,"All costs are strictly positive [INR 40 to 6,000]"
+Geographical Coordinates Validation,Not Present,Not Present,Coordinates absent in raw dataset; gracefully skipped without fabricating locations

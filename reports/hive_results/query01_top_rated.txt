@@ -1,0 +1,73 @@
+Picked up JAVA_TOOL_OPTIONS: -Dorg.jline.terminal.providers=dumb -Dorg.jline.terminal.type=dumb
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/home/manas_patil/apps/apache-hive-4.2.1-bin/lib/log4j-slf4j-impl-2.24.3.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/manas_patil/apps/hadoop-3.4.3/share/hadoop/common/lib/slf4j-reload4j-1.7.36.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.apache.logging.slf4j.Log4jLoggerFactory]
+Picked up JAVA_TOOL_OPTIONS: -Dorg.jline.terminal.providers=dumb -Dorg.jline.terminal.type=dumb
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/home/manas_patil/apps/apache-hive-4.2.1-bin/lib/log4j-slf4j-impl-2.24.3.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/manas_patil/apps/hadoop-3.4.3/share/hadoop/common/lib/slf4j-reload4j-1.7.36.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.apache.logging.slf4j.Log4jLoggerFactory]
+Hive Session ID = fd7275f0-2080-4eec-bdbd-7c071f974638
+26/11/04 11:33:40 [main]: WARN DataNucleus.MetaData: Metadata has jdbc-type of 'string' yet this is not valid. Ignored
+26/11/04 11:33:40 [main]: WARN DataNucleus.MetaData: Metadata has jdbc-type of 'string' yet this is not valid. Ignored
+26/11/04 11:33:40 [main]: WARN DataNucleus.MetaData: Metadata has jdbc-type of 'string' yet this is not valid. Ignored
+26/11/04 11:33:40 [main]: WARN DataNucleus.MetaData: Metadata has jdbc-type of 'string' yet this is not valid. Ignored
+26/11/04 11:33:40 [main]: WARN DataNucleus.MetaData: Metadata has jdbc-type of 'string' yet this is not valid. Ignored
+26/11/04 11:33:40 [main]: WARN DataNucleus.MetaData: Metadata has jdbc-type of 'string' yet this is not valid. Ignored
+26/11/04 11:33:41 [main]: WARN DataNucleus.MetaData: Metadata has jdbc-type of 'string' yet this is not valid. Ignored
+26/11/04 11:33:41 [main]: WARN DataNucleus.MetaData: Metadata has jdbc-type of 'string' yet this is not valid. Ignored
+26/11/04 11:33:41 [main]: WARN DataNucleus.MetaData: Metadata has jdbc-type of 'string' yet this is not valid. Ignored
+26/11/04 11:33:41 [main]: WARN DataNucleus.MetaData: Metadata has jdbc-type of 'string' yet this is not valid. Ignored
+26/11/04 11:33:41 [main]: WARN DataNucleus.MetaData: Metadata has jdbc-type of 'string' yet this is not valid. Ignored
+26/11/04 11:33:41 [main]: WARN DataNucleus.MetaData: Metadata has jdbc-type of 'string' yet this is not valid. Ignored
+26/11/04 11:33:43 [main]: WARN exec.FunctionRegistry: UDF Class org.apache.hadoop.hive.ql.udf.generic.GenericUDFToJson does not have description. Please annotate the class with the org.apache.hadoop.hive.ql.exec.Description annotation and provide the description of the function.
+26/11/04 11:33:43 [main]: WARN session.SessionState: Configuration hive.reloadable.aux.jars.path not specified
+26/11/04 11:33:53 [95696d96-3c34-4108-afca-70ee1156ad73 main]: WARN calcite.RelOptHiveTable: No Stats for foodieanalytics@restaurants, Columns: rate, name, location
+No Stats for foodieanalytics@restaurants, Columns: rate, name, location
+26/11/04 11:33:55 [HiveServer2-Background-Pool: Thread-71]: WARN ql.Driver: Hive-on-MR is deprecated in Hive 2 and may not be available in the future versions. Consider using a different execution engine (i.e. tez) or using Hive 1.X releases.
+Query ID = manas_patil_20261104113346_b8040be7-01ab-48a3-b961-e4fe978b4d8a
+Total jobs = 1
+Launching Job 1 out of 1
+Number of reduce tasks determined at compile time: 1
+In order to change the average load for a reducer (in bytes):
+  set hive.exec.reducers.bytes.per.reducer=<number>
+In order to limit the maximum number of reducers:
+  set hive.exec.reducers.max=<number>
+In order to set a constant number of reducers:
+  set mapreduce.job.reduces=<number>
+26/11/04 11:33:56 [HiveServer2-Background-Pool: Thread-71]: WARN impl.MetricsSystemImpl: JobTracker metrics system already initialized!
+26/11/04 11:33:56 [HiveServer2-Background-Pool: Thread-71]: WARN mapreduce.JobResourceUploader: Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+Job running in-process (local Hadoop)
+26/11/04 11:33:59 [HiveServer2-Background-Pool: Thread-71]: WARN mapreduce.Counters: Group org.apache.hadoop.mapred.Task$Counter is deprecated. Use org.apache.hadoop.mapreduce.TaskCounter instead
+2026-11-04 11:33:59,861 Stage-1 map = 0%,  reduce = 0%
+2026-11-04 11:34:11,980 Stage-1 map = 11%,  reduce = 0%, Cumulative CPU 25.74 sec
+2026-11-04 11:34:15,534 Stage-1 map = 100%,  reduce = 0%, Cumulative CPU 32.43 sec
+2026-11-04 11:34:27,645 Stage-1 map = 44%,  reduce = 0%, Cumulative CPU 57.91 sec
+2026-11-04 11:34:28,707 Stage-1 map = 100%,  reduce = 0%, Cumulative CPU 60.41 sec
+26/11/04 11:34:30 [pool-14-thread-1]: WARN impl.MetricsSystemImpl: JobTracker metrics system already initialized!
+2026-11-04 11:34:30,719 Stage-1 map = 100%,  reduce = 100%, Cumulative CPU 64.06 sec
+MapReduce Total cumulative CPU time: 1 minutes 4 seconds 60 msec
+Ended Job = job_local387769405_0001
+MapReduce Jobs Launched: 
+Stage-Stage-1:  Cumulative CPU: 64.06 sec   HDFS Read: 1957812732 HDFS Write: 0 HDFS EC Read: 0 SUCCESS
+Total MapReduce CPU Time Spent: 1 minutes 4 seconds 60 msec
+restaurant_name	location	rating
+Flechazo	Whitefield	4.9
+Byg Brewski Brewing Company	Sarjapur Road	4.9
+Byg Brewski Brewing Company	Sarjapur Road	4.9
+Byg Brewski Brewing Company	Sarjapur Road	4.9
+Belgian Waffle Factory	Brigade Road	4.9
+Belgian Waffle Factory	Brigade Road	4.9
+Asia Kitchen By Mainland China	Koramangala 5th Block	4.9
+AB's - Absolute Barbecues	BTM	4.9
+Flechazo	Whitefield	4.9
+Byg Brewski Brewing Company	Sarjapur Road	4.9
+26/11/04 11:34:31 [pool-17-thread-1]: WARN util.ShutdownHookManager: Shutdown in progress, cannot cancel a deleteOnExit
+26/11/04 11:34:31 [pool-17-thread-1]: WARN util.ShutdownHookManager: Shutdown in progress, cannot cancel a deleteOnExit
+26/11/04 11:34:31 [pool-17-thread-2]: WARN util.ShutdownHookManager: Shutdown in progress, cannot cancel a deleteOnExit
+26/11/04 11:34:31 [pool-17-thread-2]: WARN util.ShutdownHookManager: Shutdown in progress, cannot cancel a deleteOnExit
+26/11/04 11:34:31 [shutdown-hook-0]: WARN util.ShutdownHookManager: Shutdown in progress, cannot cancel a deleteOnExit
+26/11/04 11:34:31 [shutdown-hook-0]: WARN util.ShutdownHookManager: Shutdown in progress, cannot cancel a deleteOnExit

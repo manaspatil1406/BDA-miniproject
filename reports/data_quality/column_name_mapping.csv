@@ -1,0 +1,18 @@
+original_column,standardized_column,original_data_type
+url,url,str
+address,address,str
+name,name,str
+online_order,online_order,str
+book_table,book_table,str
+rate,rate,str
+votes,votes,int64
+phone,phone,str
+location,location,str
+rest_type,rest_type,str
+dish_liked,dish_liked,str
+cuisines,cuisines,str
+approx_cost(for two people),approx_cost_for_two_people,str
+reviews_list,reviews_list,str
+menu_item,menu_item,str
+listed_in(type),listed_in_type,str
+listed_in(city),listed_in_city,str

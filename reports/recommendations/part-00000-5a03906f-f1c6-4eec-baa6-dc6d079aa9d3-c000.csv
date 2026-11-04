@@ -1,0 +1,11 @@
+name,location_clean,cuisines,rating_num,votes_num,cost_for_two_num,online_order_bool,cluster_id,recommendation_score
+Kannur Food Point,BTM,"Kerala, Chinese",4.0,141.0,200.0,,0,92.0
+Kannur Food Point,BTM,"Kerala, Chinese",4.0,141.0,200.0,,0,92.0
+Kannur Food Point,BTM,"Kerala, Chinese",4.0,140.0,200.0,,0,92.0
+Kannur Food Point,BTM,"Kerala, Chinese",4.0,139.0,200.0,,0,92.0
+Kannur Food Point,BTM,"Kerala, Chinese",4.0,139.0,200.0,,0,92.0
+Swadista Aahar,BTM,"South Indian, North Indian, Chinese, Street Food",4.2,787.0,300.0,,4,91.5
+Swadista Aahar,BTM,"South Indian, North Indian, Chinese, Street Food",4.2,785.0,300.0,,4,91.5
+Polamma's Mess,BTM,"North Indian, Chinese, Biryani",4.2,185.0,300.0,,4,91.5
+Polamma's Mess,BTM,"North Indian, Chinese, Biryani",4.2,185.0,300.0,,4,91.5
+Polamma's Mess,BTM,"North Indian, Chinese, Biryani",4.2,185.0,300.0,,4,91.5

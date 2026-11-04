@@ -1,0 +1,93 @@
+BTM	3325	5114	65.02
+Banashankari	507	904	56.08
+Banaswadi	343	664	51.66
+Bannerghatta Road	924	1630	56.69
+Basavanagudi	441	684	64.47
+Basaveshwara Nagar	100	191	52.36
+Bellandur	761	1286	59.18
+Bommanahalli	115	238	48.32
+Brigade Road	663	1216	54.52
+Brookefield	417	658	63.37
+CV Raman Nagar	56	89	62.92
+Central Bangalore	3	8	37.50
+Church Street	343	568	60.39
+City Market	28	126	22.22
+Commercial Street	142	370	38.38
+Cunningham Road	323	491	65.78
+Domlur	235	496	47.38
+East Bangalore	23	44	52.27
+Ejipura	220	439	50.11
+Electronic City	575	1256	45.78
+Frazer Town	429	723	59.34
+HBR Layout	105	153	68.63
+HSR	1920	2522	76.13
+Hebbal	4	14	28.57
+Hennur	103	161	63.98
+Hosur Road	59	102	57.84
+ITPL Main Road, Whitefield	80	113	70.80
+Indiranagar	1335	2082	64.12
+Infantry Road	61	150	40.67
+JP Nagar	1317	2234	58.95
+Jakkur	0	3	0.00
+Jalahalli	21	38	55.26
+Jayanagar	1364	1926	70.82
+Jeevan Bhima Nagar	204	272	75.00
+KR Puram	7	18	38.89
+Kaggadasapura	79	101	78.22
+Kalyan Nagar	498	853	58.38
+Kammanahalli	380	648	58.64
+Kanakapura Road	17	19	89.47
+Kengeri	7	8	87.50
+Koramangala	30	48	62.50
+Koramangala 1st Block	851	1236	68.85
+Koramangala 2nd Block	63	102	61.76
+Koramangala 3rd Block	125	216	57.87
+Koramangala 4th Block	557	1016	54.82
+Koramangala 5th Block	1614	2504	64.46
+Koramangala 6th Block	697	1154	60.40
+Koramangala 7th Block	786	1181	66.55
+Koramangala 8th Block	212	320	66.25
+Kumaraswamy Layout	165	195	84.62
+Langford Town	5	27	18.52
+Lavelle Road	205	527	38.90
+MG Road	374	917	40.79
+Magadi Road	18	34	52.94
+Majestic	21	155	13.55
+Malleshwaram	415	725	57.24
+Marathahalli	1112	1846	60.24
+Mysore Road	10	22	45.45
+Nagarbhavi	2	9	22.22
+Nagawara	162	187	86.63
+New BEL Road	392	649	60.40
+North Bangalore	5	14	35.71
+Old Airport Road	216	446	48.43
+Old Madras Road	17	22	77.27
+Peenya	0	1	0.00
+RT Nagar	55	80	68.75
+Race Course Road	46	139	33.09
+Rajajinagar	305	591	51.61
+Rajarajeshwari Nagar	2	2	100.00
+Rammurthy Nagar	27	32	84.38
+Residency Road	248	674	36.80
+Richmond Road	247	812	30.42
+Sadashiv Nagar	25	63	39.68
+Sahakara Nagar	38	53	71.70
+Sanjay Nagar	37	76	48.68
+Sankey Road	0	27	0.00
+Sarjapur Road	729	1065	68.45
+Seshadripuram	75	165	45.45
+Shanti Nagar	220	509	43.22
+Shivajinagar	144	498	28.92
+South Bangalore	71	107	66.36
+St. Marks Road	167	352	47.44
+Thippasandra	83	194	42.78
+Ulsoor	625	1020	61.27
+Uttarahalli	10	17	58.82
+Varthur Main Road, Whitefield	97	117	82.91
+Vasanth Nagar	147	295	49.83
+Vijay Nagar	54	80	67.50
+West Bangalore	2	6	33.33
+Whitefield	1137	2142	53.08
+Wilson Garden	134	246	54.47
+Yelahanka	5	6	83.33
+Yeshwantpur	93	119	78.15

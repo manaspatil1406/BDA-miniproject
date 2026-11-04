@@ -1,0 +1,93 @@
+BTM	5114
+Banashankari	904
+Banaswadi	664
+Bannerghatta Road	1630
+Basavanagudi	684
+Basaveshwara Nagar	191
+Bellandur	1286
+Bommanahalli	238
+Brigade Road	1216
+Brookefield	658
+CV Raman Nagar	89
+Central Bangalore	8
+Church Street	569
+City Market	126
+Commercial Street	370
+Cunningham Road	491
+Domlur	496
+East Bangalore	44
+Ejipura	439
+Electronic City	1256
+Frazer Town	723
+HBR Layout	153
+HSR	2522
+Hebbal	14
+Hennur	161
+Hosur Road	102
+ITPL Main Road, Whitefield	113
+Indiranagar	2082
+Infantry Road	150
+JP Nagar	2234
+Jakkur	3
+Jalahalli	38
+Jayanagar	1926
+Jeevan Bhima Nagar	272
+KR Puram	18
+Kaggadasapura	101
+Kalyan Nagar	853
+Kammanahalli	648
+Kanakapura Road	19
+Kengeri	8
+Koramangala	48
+Koramangala 1st Block	1237
+Koramangala 2nd Block	102
+Koramangala 3rd Block	216
+Koramangala 4th Block	1017
+Koramangala 5th Block	2504
+Koramangala 6th Block	1154
+Koramangala 7th Block	1181
+Koramangala 8th Block	320
+Kumaraswamy Layout	195
+Langford Town	27
+Lavelle Road	527
+MG Road	918
+Magadi Road	34
+Majestic	155
+Malleshwaram	725
+Marathahalli	1846
+Mysore Road	22
+Nagarbhavi	9
+Nagawara	187
+New BEL Road	649
+North Bangalore	14
+Old Airport Road	446
+Old Madras Road	22
+Peenya	1
+RT Nagar	80
+Race Course Road	139
+Rajajinagar	591
+Rajarajeshwari Nagar	2
+Rammurthy Nagar	32
+Residency Road	674
+Richmond Road	812
+Sadashiv Nagar	63
+Sahakara Nagar	53
+Sanjay Nagar	76
+Sankey Road	27
+Sarjapur Road	1065
+Seshadripuram	165
+Shanti Nagar	509
+Shivajinagar	498
+South Bangalore	107
+St. Marks Road	352
+Thippasandra	194
+Ulsoor	1020
+Uttarahalli	17
+Varthur Main Road, Whitefield	117
+Vasanth Nagar	295
+Vijay Nagar	80
+West Bangalore	6
+Whitefield	2142
+Wilson Garden	246
+Yelahanka	6
+Yeshwantpur	119

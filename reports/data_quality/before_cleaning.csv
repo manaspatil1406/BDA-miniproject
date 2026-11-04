@@ -1,0 +1,19 @@
+column_name,data_type,total_records,non_null_count,missing_count,missing_percentage,unique_values_count,sample_value
+url,str,51717,51717,0,0.0,51717,https://www.zomato.com/bangalore/jals...
+address,str,51717,51717,0,0.0,11495,"942, 21st Main Road, 2nd Stage, Banas..."
+name,str,51717,51717,0,0.0,8792,Jalsa
+online_order,str,51717,51717,0,0.0,2,Yes
+book_table,str,51717,51717,0,0.0,2,Yes
+rate,str,51717,43942,7775,15.03,64,4.1/5
+votes,int64,51717,51717,0,0.0,2328,775
+phone,str,51717,50509,1208,2.34,14926,"080 42297555
++91 9743772233"
+location,str,51717,51696,21,0.04,93,Banashankari
+rest_type,str,51717,51490,227,0.44,93,Casual Dining
+dish_liked,str,51717,23639,28078,54.29,5271,"Pasta, Lunch Buffet, Masala Papad, Pa..."
+cuisines,str,51717,51672,45,0.09,2723,"North Indian, Mughlai, Chinese"
+approx_cost(for two people),str,51717,51371,346,0.67,70,800
+reviews_list,str,51717,51717,0,0.0,22513,"[('Rated 4.0', 'RATED\n  A beautiful ..."
+menu_item,str,51717,51717,0,0.0,9098,[]
+listed_in(type),str,51717,51717,0,0.0,7,Buffet
+listed_in(city),str,51717,51717,0,0.0,30,Banashankari

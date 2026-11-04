@@ -1,0 +1,108 @@
+Afghan	64
+Afghani	8
+African	17
+American	1460
+Andhra	1759
+Arabian	1099
+Asian	1294
+Assamese	26
+Australian	5
+Awadhi	29
+BBQ	736
+Bakery	2838
+Bar Food	39
+Belgian	4
+Bengali	575
+Beverages	4743
+Bihari	92
+Biryani	6483
+Bohri	6
+British	7
+Bubble Tea	10
+Burger	2007
+Burmese	55
+Cafe	5300
+Cantonese	6
+Charcoal Chicken	88
+Chettinad	206
+Chinese	15533
+Coffee	138
+Continental	5758
+Desserts	5630
+Drinks Only	11
+European	713
+Fast Food	8087
+Finger Food	1217
+French	87
+German	7
+Goan	114
+Greek	38
+Grill	24
+Gujarati	102
+Healthy Food	916
+Hot Dogs	3
+Hyderabadi	330
+Ice Cream	1769
+Indian	2
+Indonesian	100
+Iranian	29
+Italian	3386
+Japanese	349
+Jewish	6
+Juices	1144
+Kashmiri	33
+Kebab	1034
+Kerala	1454
+Konkan	81
+Korean	143
+Lebanese	175
+Lucknowi	55
+Maharashtrian	139
+Malaysian	109
+Malwani	2
+Mangalorean	688
+Mediterranean	555
+Mexican	539
+Middle Eastern	106
+Mithai	1027
+Modern Indian	155
+Momos	1276
+Mongolian	12
+Mughlai	1566
+Naga	25
+Nepalese	87
+North Eastern	57
+North Indian	21067
+Not Specified	24
+Oriya	135
+Paan	12
+Pan Asian	3
+Parsi	29
+Pizza	2072
+Portuguese	11
+Rajasthani	182
+Raw Meats	4
+Roast Chicken	21
+Rolls	1469
+Russian	6
+Salad	1138
+Sandwich	875
+Seafood	1810
+Sindhi	4
+Singaporean	47
+South American	20
+South Indian	8638
+Spanish	46
+Sri Lankan	15
+Steak	572
+Street Food	2593
+Sushi	46
+Tamil	7
+Tea	394
+Tex-Mex	51
+Thai	999
+Tibetan	348
+Turkish	92
+Vegan	6
+Vietnamese	172
+Wraps	56

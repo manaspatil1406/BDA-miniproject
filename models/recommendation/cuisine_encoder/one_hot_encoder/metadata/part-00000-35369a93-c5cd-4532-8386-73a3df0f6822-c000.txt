@@ -1,0 +1,1 @@
+{"class":"org.apache.spark.ml.feature.OneHotEncoderModel","timestamp":1793796682696,"sparkVersion":"4.0.1","uid":"OneHotEncoder_9e9f13a24335","paramMap":{"outputCols":["cuisine_vector"],"handleInvalid":"keep","inputCols":["cuisine_index"]},"defaultParamMap":{"handleInvalid":"error","dropLast":true,"outputCol":"OneHotEncoder_9e9f13a24335__output"}}

@@ -218,3 +218,13 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+
+# FoodieAnalytics Project Specific
+dataset/raw/*.csv
+dataset/processed/*.csv
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.env

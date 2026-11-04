@@ -1,0 +1,5 @@
+{"order_id": "ORD1001", "restaurant_id": "REST003", "customer_id": "CUST89", "order_amount": 452.55, "order_status": "Placed", "order_timestamp": "2026-11-04T13:15:42.431670"}
+{"order_id": "ORD1002", "restaurant_id": "REST006", "customer_id": "CUST33", "order_amount": 1445.82, "order_status": "Placed", "order_timestamp": "2026-11-04T13:15:42.431733"}
+{"order_id": "ORD1003", "restaurant_id": "REST009", "customer_id": "CUST100", "order_amount": 1984.75, "order_status": "Delivered", "order_timestamp": "2026-11-04T13:15:42.431739"}
+{"order_id": "ORD1004", "restaurant_id": "REST008", "customer_id": "CUST71", "order_amount": 1900.92, "order_status": "Out for Delivery", "order_timestamp": "2026-11-04T13:15:42.431742"}
+{"order_id": "ORD1005", "restaurant_id": "REST003", "customer_id": "CUST67", "order_amount": 1961.52, "order_status": "Out for Delivery", "order_timestamp": "2026-11-04T13:15:42.431746"}

@@ -1,0 +1,86 @@
+================================================================================
+ FOODIEANALYTICS: BIG DATA ANALYTICS & RESTAURANT RECOMMENDATION SYSTEM
+ STAGE 3 - HADOOP HDFS STORAGE & HEALTH VERIFICATION REPORT
+================================================================================
+
+Date & Time of Verification : 2026-11-03 20:30:00 IST
+Audit Status                : SUCCESSFUL & FULLY VERIFIED
+Execution Environment       : Ubuntu 24.04.5 LTS on WSL2 (x86_64)
+System User                 : manas_patil
+
+--------------------------------------------------------------------------------
+1. ENVIRONMENT & SOFTWARE STACK
+--------------------------------------------------------------------------------
+Operating System            : Ubuntu 24.04.5 LTS on WSL2
+Java Runtime Environment    : OpenJDK 21.0.12.1 (64-Bit Server VM)
+JAVA_HOME                   : /usr/lib/jvm/java-21-openjdk-amd64
+Hadoop Version              : Apache Hadoop 3.4.3
+HADOOP_HOME                 : /home/manas_patil/apps/hadoop-3.4.3
+Cluster Mode                : Single-Node Pseudo-Distributed
+Filesystem Default Protocol : hdfs://localhost:9000
+Replication Policy          : 1 (dfs.replication = 1)
+Default Block Size          : 134217728 bytes (128 MB)
+
+--------------------------------------------------------------------------------
+2. ACTIVE HADOOP PROCESS DAEMONS (JVM jps AUDIT)
+--------------------------------------------------------------------------------
+NameNode                    : RUNNING (Master namespace & metadata manager)
+DataNode                    : RUNNING (Worker block storage daemon)
+SecondaryNameNode           : RUNNING (Periodic checkpointing & FsImage merger)
+Active RPC Port             : 9000 (hdfs://localhost:9000)
+NameNode Web UI Port        : 9870 (http://localhost:9870)
+
+--------------------------------------------------------------------------------
+3. HDFS DIRECTORY & INGESTED DATASET SPECIFICATIONS
+--------------------------------------------------------------------------------
+HDFS Target Directory       : /foodieanalytics/data
+HDFS File Destination       : /foodieanalytics/data/cleaned_zomato.csv
+Source Local Path           : dataset/processed/cleaned_zomato.csv
+Local File Size             : 574,544,388 bytes (547.93 MB)
+HDFS File Size              : 574,544,388 bytes (547.9 MB)
+HDFS Block Count            : 5 blocks (4 x 128 MB + 1 x ~35.93 MB)
+HDFS Permissions            : -rw-r--r--
+HDFS Owner / Group          : manas_patil / supergroup
+Total Dataset Lines         : 51,657 lines (1 CSV header + 51,656 data rows)
+
+--------------------------------------------------------------------------------
+4. DATA INTEGRITY & SCHEMA STREAM VERIFICATION
+--------------------------------------------------------------------------------
+Header Row:
+url,address,name,online_order,book_table,rate,votes,phone,location,rest_type,dish_liked,cuisines,approx_cost_for_two_people,reviews_list,menu_item,listed_in_type,listed_in_city
+
+First Data Record Sample:
+https://www.zomato.com/bangalore/jalsa-banashankari-bangalore,942, 21st Main Road, 2nd Stage, Banashankari,Jalsa,True,True,4.1,775,080 42297555,Banashankari,Casual Dining,Pasta, Lunch Buffet, Masala Papad, Paneer Tikka, Dum Biryani, Salad, Roti,"North Indian, Mughlai, South Indian",800.0,"[('Rated 4.0', 'RATED\n  A beautiful place to dine in...')]",[],Buffet,Banashankari
+
+Schema Type Integrity:
+- rate                      : Clean continuous float64 (e.g. 4.1)
+- approx_cost_for_two_people: Clean continuous float64 (e.g. 800.0)
+- online_order / book_table : Clean native boolean (True / False)
+- votes                     : Clean integer (775)
+- cuisines / location       : Standardized text strings
+
+--------------------------------------------------------------------------------
+5. HDFS AUDIT COMMAND LOGS
+--------------------------------------------------------------------------------
+Directory Listing:
+hdfs dfs -ls -h /foodieanalytics/data
+-rw-r--r--   1 manas_patil supergroup    547.9 M 2026-11-03 20:30 /foodieanalytics/data/cleaned_zomato.csv
+
+Storage Usage:
+hdfs dfs -du -h /foodieanalytics/data
+547.9 M  547.9 M  /foodieanalytics/data/cleaned_zomato.csv
+
+Verification Commands:
+- upload_to_hdfs.sh         : Executed (dataset ingested without error)
+- verify_hdfs.sh            : Executed (all 6 audit checks passed)
+- hdfs dfs -test -e         : PASSED (file exists in HDFS)
+- hdfs dfs -cat | wc -l     : 51657 (100% record retention confirmed)
+
+--------------------------------------------------------------------------------
+6. CONCLUSION & DOWNSTREAM READINESS
+--------------------------------------------------------------------------------
+The cleaned Zomato restaurant dataset is securely stored on HDFS with replication
+factor 1. HDFS NameNode RPC (port 9000) and Web UI (port 9870) are fully operational.
+The storage layer is verified and ready for Apache Hive and Apache Spark operations.
+================================================================================
+

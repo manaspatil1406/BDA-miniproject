@@ -1,0 +1,11 @@
+v1
+{"path":"file:///mnt/c/BDA-miniproject/dataset/streaming/orders_input/orders_batch_001.json","timestamp":1793798142192,"batchId":0}
+{"path":"file:///mnt/c/BDA-miniproject/dataset/streaming/orders_input/orders_batch_002.json","timestamp":1793798147279,"batchId":1}
+{"path":"file:///mnt/c/BDA-miniproject/dataset/streaming/orders_input/orders_batch_003.json","timestamp":1793798152353,"batchId":2}
+{"path":"file:///mnt/c/BDA-miniproject/dataset/streaming/orders_input/orders_batch_004.json","timestamp":1793798157421,"batchId":3}
+{"path":"file:///mnt/c/BDA-miniproject/dataset/streaming/orders_input/orders_batch_005.json","timestamp":1793798162503,"batchId":4}
+{"path":"file:///mnt/c/BDA-miniproject/dataset/streaming/orders_input/orders_batch_006.json","timestamp":1793798167577,"batchId":5}
+{"path":"file:///mnt/c/BDA-miniproject/dataset/streaming/orders_input/orders_batch_007.json","timestamp":1793798172650,"batchId":6}
+{"path":"file:///mnt/c/BDA-miniproject/dataset/streaming/orders_input/orders_batch_008.json","timestamp":1793798177725,"batchId":7}
+{"path":"file:///mnt/c/BDA-miniproject/dataset/streaming/orders_input/orders_batch_009.json","timestamp":1793798182805,"batchId":8}
+{"path":"file:///mnt/c/BDA-miniproject/dataset/streaming/orders_input/orders_batch_010.json","timestamp":1793798187883,"batchId":9}
